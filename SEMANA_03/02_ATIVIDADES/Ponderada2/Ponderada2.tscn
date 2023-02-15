@@ -1,0 +1,83 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ponderada.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( -1, 1 )
+script = ExtResource( 1 )
+
+[node name="Exercicio1" type="Button" parent="."]
+margin_right = 72.0
+margin_bottom = 44.0
+text = "Ex 1"
+
+[node name="ListaCheia" type="Label" parent="."]
+margin_left = 108.0
+margin_top = 2.0
+margin_right = 305.0
+margin_bottom = 43.0
+
+[node name="Item1" type="LineEdit" parent="."]
+margin_left = 3.0
+margin_top = 89.0
+margin_right = 61.0
+margin_bottom = 133.0
+text = "Dado 1"
+
+[node name="Item2" type="LineEdit" parent="."]
+margin_left = 78.0
+margin_top = 90.0
+margin_right = 136.0
+margin_bottom = 131.0
+text = "Dado 2"
+
+[node name="Exercicio2" type="Button" parent="."]
+margin_left = 168.0
+margin_top = 90.0
+margin_right = 254.0
+margin_bottom = 131.0
+text = "Ex 2"
+
+[node name="ListaVazia" type="Label" parent="."]
+margin_left = 318.0
+margin_top = 91.0
+margin_right = 437.0
+margin_bottom = 130.0
+
+[node name="Exericio3" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 178.0
+margin_right = 75.0
+margin_bottom = 222.0
+text = "Ex 3"
+
+[node name="Texto" type="Label" parent="."]
+margin_left = 119.0
+margin_top = 185.0
+margin_right = 253.0
+margin_bottom = 224.0
+
+[node name="TextoUsuario" type="LineEdit" parent="."]
+margin_left = 5.0
+margin_top = 262.0
+margin_right = 115.0
+margin_bottom = 299.0
+text = "Insira um texto"
+
+[node name="Exercicio4" type="Button" parent="."]
+margin_left = 144.0
+margin_top = 260.0
+margin_right = 204.0
+margin_bottom = 300.0
+text = "Ex 4"
+
+[node name="TextoUsuario2" type="Label" parent="."]
+margin_left = 257.0
+margin_top = 261.0
+margin_right = 391.0
+margin_bottom = 298.0
+
+[connection signal="pressed" from="Exercicio1" to="." method="_on_Exercicio1_pressed"]
+[connection signal="pressed" from="Exercicio2" to="." method="_on_Exercicio2_pressed"]
+[connection signal="pressed" from="Exericio3" to="." method="_on_Exericio3_pressed"]
+[connection signal="pressed" from="Exercicio4" to="." method="_on_Exercicio4_pressed"]
