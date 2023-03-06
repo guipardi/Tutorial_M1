@@ -18,7 +18,7 @@ func _on_Button2_pressed(): #Nessa função eu crio um loop for que cria uma lis
 		lista.append(numero)
 	$Label.text = str(lista) #Aqui eu coloco dentro do primeiro label a lista gerada pelo loop for acima
 	
-func _on_Button3_pressed(): # Nessa função eu percorro toda a lista e verifico que temum número ímpar, se tiver, eu adicono baldo ao final do nomeUsuario, e atribuo isso a outra variável, nomeUsuarioAtualizado
+func _on_Button3_pressed(): # Nessa função eu percorro toda a lista e verifico que temum número ímpar, se tiver, eu adicono baldo ao final do nome
 	for i in lista:
 		if i % 2 != 0:
 			nome = nome+'baldo'
