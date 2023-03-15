@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Você encontrou sua felicidade!!.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="VocêEncontrouSuaFelicidade!!" type="Sprite" parent="."]
+position = Vector2( 570, 367 )
+scale = Vector2( 0.713021, 0.70463 )
+texture = ExtResource( 1 )

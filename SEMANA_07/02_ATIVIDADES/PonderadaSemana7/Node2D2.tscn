@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Design_sem_nome-4-removebg-preview.png" type="Texture" id=1]
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=2]
+
+[sub_resource type="StreamTexture" id=1]
+flags = 4
+load_path = "res://.import/Design sem nome-2.png-7b0e274b59c1aa0180c48d657ccf27f1.stex"
+
+[node name="Node2D2" type="Node2D"]
+
+[node name="DesignSemNome-2" type="Sprite" parent="."]
+position = Vector2( 459, 383 )
+scale = Vector2( 0.64349, 0.731944 )
+texture = SubResource( 1 )
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="DesignSemNome-4-removebg-preview" type="Sprite" parent="KinematicBody2D"]
+position = Vector2( 277, 441 )
+scale = Vector2( 1, 1.28133 )
+texture = ExtResource( 1 )
